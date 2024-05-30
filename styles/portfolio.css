@@ -34,6 +34,36 @@ h1 {
   color: #272142;
   margin-top: 24px;
 }
+.about-hero {
+  padding: 260px 0;
+}
+
+.about-hero h1 {
+  font-size: 64px;
+  line-height: 85px;
+}
+
+.about-hero h2 {
+  font-family: var(--default-font-family);
+  font-size: 18px;
+  font-weight: bold;
+  margin: 28px 0;
+}
+
+.about-hero p {
+  font-family: var(--default-font-family);
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.about-hero-content {
+  margin: 30px;
+}
+
+.portrait {
+  max-width: 700px;
+  border-radius: 10px;
+}
 
 .btn-branding {
   background-color: var(--branding-color);
@@ -86,5 +116,10 @@ h1 {
 
   .hero {
     padding: 60px 10px;
+  }
+
+  .about-hero-content {
+    text-align: center;
+    padding: 0;
   }
 }
