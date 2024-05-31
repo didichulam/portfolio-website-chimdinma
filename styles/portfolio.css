@@ -33,33 +33,44 @@ h1 {
   margin-top: 24px;
 }
 
-.about-hero {
+.topic {
   padding: 260px 0;
 }
 
-.about-hero h1 {
+.topic h1 {
   font-size: 64px;
   line-height: 85px;
 }
 
-.about-hero h2 {
+.topic h2 {
   font-family: var(--default-font-family);
   font-size: 18px;
   font-weight: bold;
   margin: 28px 0;
 }
 
-.about-hero p {
+.topic p {
   font-family: var(--default-font-family);
   font-size: 16px;
   line-height: 30px;
 }
 
-.about-hero-content {
+.topic-content {
   margin: 30px;
 }
 
-.portrait {
+.topic-content h3 {
+  font-size: 24px;
+  font-family: var(--default-font-family);
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.topic-content p {
+  font-size: 14px;
+}
+
+img {
   max-width: 700px;
   border-radius: 10px;
 }
@@ -117,7 +128,7 @@ h1 {
     padding: 60px 10px;
   }
 
-  .about-content {
+  .topic-content {
     text-align: center;
     padding: 0;
   }
