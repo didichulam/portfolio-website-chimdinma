@@ -4,7 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About me - Chimdinma</title>
+  <meta name="description"
+    content="Chimdinma is a front-end developer who transitioned into tech after working as a nurse. She started by learning to code and so far, she has a few projects up her sleeves. Learn more about Chimdinma">
+  <title>About me - Chimdinma Egbuchulam</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,6 +20,27 @@
 </head>
 
 <body>
+  <nav>
+    <div class=" d-flex justify-content-between container">
+      <p class="logo">
+        <a href="/" title="Homepage">Chimdinma</a>
+      </p>
+      <ul>
+        <li>
+          <a href="/" title="Homepage">Home</a>
+        </li>
+        <li class="active">
+          <a href="/about.html" title="About Chimdinma">About</a>
+        </li>
+        <li>
+          <a href="/work.html" title="Chimdinma's Work">Work</a>
+        </li>
+        <li>
+          <a href="/contact.html" title="Contact Chimdinma">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
   <div class="topic container">
     <div class="row">
       <div class="col-lg-6">
@@ -40,9 +63,38 @@
         </div>
       </div>
       <div class="col-lg-6">
-        <img src="/images/portrait.jpeg" class="portrait img-fluid" alt="">
+        <img src="/images/portrait.jpeg" class="portrait img-fluid" alt="A portrait of Chimdinma">
       </div>
     </div>
+    <footer>
+      <div class="contact-box d-flex justify-content-between d-none d-lg-flex">
+        <div>
+          <h3>Work Inquiry</h3>
+          <p class="text-muted">Let's work together</p>
+        </div>
+        <div>
+          <a href="/contact.html" class="btn btn-branding mt-3 mb-4" title="Contact Chimdinma">Contact me</a>
+        </div>
+
+      </div>
+      <div class="d-flex justify-content-center mt-5">
+        <a href="mailto:egbuchulamchimdinma@gmail.com" class="email-link"
+          title="Email Chimdinma">egbuchulamchimdinma@gmail.com</a>
+      </div>
+
+      <div class="social-links d-flex justify-content-center">
+        <a href="https://www.linkedin.com/in/chimdinma" target="_blank" title="LinkedIn profile">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="https://www.github.com/didichulam" target="_blank" title="Github profile">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </div>
+      <p class="text-center text-muted mt-4">This project was coded my Chimdinma Egbuchulam and is open-soureced on
+        <a href="https://www.github.com/didichulam/portfolio-website-chimdinma">GitHub</a>
+        and hosted on <a href="https://portfolio-website-chimdinma.netlify.app/">Netlify</a>
+      </p>
+    </footer>
   </div>
 </body>
 
