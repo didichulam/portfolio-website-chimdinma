@@ -49,9 +49,14 @@ nav li.active a {
   margin: 0;
 }
 
+h1,
+h2,
+h3 {
+  font-family: var(--heading-font-family);
+}
+
 h1 {
   font-size: 96px;
-  font-family: var(--heading-font-family);
   font-weight: bold;
   font-style: normal;
   line-height: 1.5;
@@ -108,16 +113,24 @@ img {
 
 .btn-branding {
   background-color: var(--branding-color);
+  border: 1px solid var(--branding-color);
   color: white;
   border-radius: 4px;
   font-size: 18px;
   line-height: 27px;
   padding: 18px 46px;
   margin-top: 49px;
+  transition: all 100ms ease-in-out;
+}
+
+.btn-branding:hover {
+  color: var(--branding-color);
+  background-color: var(--secondary-color);
+  border: 1px solid var(--branding-color);
 }
 
 .project-description {
-  padding: 100px 50px;
+  padding: 50px;
 }
 
 .project-heading {
@@ -195,13 +208,21 @@ footer .social-links a:hover {
 
 @media (max-width: 960px) {
   h1 {
-    font-size: 48px;
+    font-size: 36px;
   }
 
   .topic-content h1 {
-    font-size: 36px;
+    font-size: 20px;
     line-height: 1.5;
-    padding: 40px 10px;
+    padding: 30px 10px;
+    margin-bottom: 0;
+  }
+  .topic-content h3 {
+    font-size: 20px;
+  }
+
+  .topic {
+    padding: 0;
   }
 
   .project-description {
@@ -209,11 +230,11 @@ footer .social-links a:hover {
     text-align: center;
   }
   .project-heading {
-    font-size: 44px;
+    font-size: 24px;
   }
 
   .hero {
-    padding: 60px 10px;
+    padding: 40px 10px;
   }
 
   .topic-content {
@@ -223,5 +244,13 @@ footer .social-links a:hover {
 
   nav a {
     font-size: 12px;
+  }
+
+  .email-link {
+    font-size: 8px;
+  }
+
+  .footer-text {
+    font-size: 8px;
   }
 }
